@@ -1,0 +1,17 @@
+nav {
+    ul {
+        margin: 10px;
+        padding: 20px;
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    a {
+        display: inline-block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}

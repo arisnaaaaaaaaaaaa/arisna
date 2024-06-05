@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+    <style>
+        form{
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset{
+            background-color: lightslategrey;
+        }
+        legend{
+            border: 1px solid black;
+            background-color: lightskyblue;
+            border-radius: 4px;
+        }
+        input{
+            padding: 5px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Biodata</legend>
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Masukkan nama anda"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea placeholder="Masukkan nama anda"></textarea></td>
+                </tr>
+                <tr>
+                    <td>TTL</td>
+                    <td>:</td>
+                    <td><input type="text"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><input type="radio">Laki-Laki <input type="radio">Perempuan</td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td><select>
+                        <option value="Agama">Agama</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>:</td>
+                    <td><input type="checkbox">Coli <input type="checkbox">Ngentod <input type="checkbox">Mengaji</td>
+                </tr>
+                <tr>
+                    <td>Motto</td>
+                    <td>:</td>
+                    <td><textarea placeholder="Masukkan motto anda"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="submit"><input type="button" value="reset"></button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
