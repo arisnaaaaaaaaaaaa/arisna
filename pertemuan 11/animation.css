@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heart {
+    font-size: 10rem;
+    animation: heart .5s infinite alternate linear;
+}
+
+@keyframes heart {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(2);
+    }
+}
