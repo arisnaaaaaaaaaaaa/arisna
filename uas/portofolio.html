@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS</title>
+    <link rel="stylesheet" href="uas.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">Arisna<span>Website</span></a>
+            <ul class="navlist">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <div id="theme-btn" class="ri-moon-line"></div>
+                <div id="menu-btn" class="ri-menu-line"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="portofolio" id="portofolio">
+        <div class="tittle">
+            <h2>Latest <span>Project</span></h2>
+        </div>
+        <div class="container portofolio-container">
+            <div class="portofolio-buttons">
+                <button class="btn portofolio-tab active" onclick="tabOpen('all')">
+                    All
+                </button>
+                <button class="btn portofolio-tab" onclick="tabOpen('Webdevelop')">
+                    Web Develop
+                </button>
+                <button class="btn portofolio-tab" onclick="tabOpen('webdesign')">
+                    Web Design
+                </button>
+            </div>
+            <div class="tab-content active-content" id="all">
+                <div class="image"><img src="poto.jpg" alt=""></div>
+                <div class="image"><img src="gue.jpg" alt=""></div>
+                <div class="image"><img src="guee.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <script src="http://unpkg.com/scrollreveal"></script>
+    <script src="http://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="uas.css"></script>
+</body>
+</html>
