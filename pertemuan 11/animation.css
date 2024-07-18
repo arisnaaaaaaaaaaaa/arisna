@@ -1,17 +1,17 @@
 body {
-    background-color: pink;
+    background-color: #111;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.heart {
+.fire {
     font-size: 10rem;
-    animation: heart .5s infinite alternate linear;
+    animation: fire .5s infinite alternate linear;
 }
 
-@keyframes heart {
+@keyframes fire {
     from {
         transform: scale(.9);
     }
